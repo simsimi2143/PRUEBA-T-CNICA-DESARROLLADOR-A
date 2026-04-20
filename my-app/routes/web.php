@@ -7,4 +7,6 @@ Route::get('/', function () {
     return redirect()->route('solicitudes.index');
 });
 
-Route::resource('solicitudes', SolicitudController::class);
+Route::resource('solicitudes', SolicitudController::class)->parameters([
+    'solicitudes' => 'solicitud'
+]);
