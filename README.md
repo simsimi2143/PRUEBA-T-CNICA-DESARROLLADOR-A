@@ -1,7 +1,7 @@
 # PRUEBA-T-CNICA-DESARROLLADOR-A
 La presente prueba tiene como objetivo evaluar la capacidad del postulante para analizar, diseñar e implementar una solución de software en un contexto similar al de los sistemas institucionales de la Universidad.
 
-# Proceso de creacion de una app laravel
+# Guia Instalación proyecto
 ```
 laravel new my-app
 
@@ -41,224 +41,9 @@ Lock file operations: 111 installs, 0 updates, 0 removals
   - Locking brick/math (0.14.8)
   - Locking carbonphp/carbon-doctrine-types (3.2.0)
   - Locking dflydev/dot-access-data (v3.0.3)
-  - Locking doctrine/inflector (2.1.0)
-  - Locking doctrine/lexer (3.0.1)
-  - Locking dragonmantank/cron-expression (v3.6.0)
-  - Locking egulias/email-validator (4.0.4)
-  - Locking fakerphp/faker (v1.24.1)
-  - Locking filp/whoops (2.18.4)
-  - Locking fruitcake/php-cors (v1.4.0)
-  - Locking graham-campbell/result-type (v1.1.4)
-  - Locking guzzlehttp/guzzle (7.10.0)
-  - Locking guzzlehttp/promises (2.3.0)
-  - Locking guzzlehttp/psr7 (2.9.0)
-  - Locking guzzlehttp/uri-template (v1.0.5)
-  - Locking hamcrest/hamcrest-php (v2.1.1)
-  - Locking laravel/framework (v12.56.0)
-  - Locking laravel/pail (v1.2.6)
-  - Locking laravel/pint (v1.29.0)
-  - Locking laravel/prompts (v0.3.16)
-  - Locking laravel/sail (v1.57.0)
-  - Locking laravel/serializable-closure (v2.0.12)
-  - Locking laravel/tinker (v2.11.1)
-  - Locking league/commonmark (2.8.2)
-  - Locking league/config (v1.2.0)
-  - Locking league/flysystem (3.33.0)
-  - Locking league/flysystem-local (3.31.0)
-  - Locking league/mime-type-detection (1.16.0)
-  - Locking league/uri (7.8.1)
-  - Locking league/uri-interfaces (7.8.1)
-  - Locking mockery/mockery (1.6.12)
-  - Locking monolog/monolog (3.10.0)
-  - Locking myclabs/deep-copy (1.13.4)
-  - Locking nesbot/carbon (3.11.4)
-  - Locking nette/schema (v1.3.5)
-  - Locking nette/utils (v4.1.3)
-  - Locking nikic/php-parser (v5.7.0)
-  - Locking nunomaduro/collision (v8.9.3)
-  - Locking nunomaduro/termwind (v2.4.0)
-  - Locking phar-io/manifest (2.0.4)
-  - Locking phar-io/version (3.2.1)
-  - Locking phpoption/phpoption (1.9.5)
-  - Locking phpunit/php-code-coverage (11.0.12)
-  - Locking phpunit/php-file-iterator (5.1.1)
-  - Locking phpunit/php-invoker (5.0.1)
-  - Locking phpunit/php-text-template (4.0.1)
-  - Locking phpunit/php-timer (7.0.1)
-  - Locking phpunit/phpunit (11.5.55)
-  - Locking psr/clock (1.0.0)
-  - Locking psr/container (2.0.2)
-  - Locking psr/event-dispatcher (1.0.0)
-  - Locking psr/http-client (1.0.3)
-  - Locking psr/http-factory (1.1.0)
-  - Locking psr/http-message (2.0)
-  - Locking psr/log (3.0.2)
-  - Locking psr/simple-cache (3.0.0)
-  - Locking psy/psysh (v0.12.22)
-  - Locking ralouphie/getallheaders (3.0.3)
-  - Locking ramsey/collection (2.1.1)
-  - Locking ramsey/uuid (4.9.2)
-  - Locking sebastian/cli-parser (3.0.2)
-  - Locking sebastian/code-unit (3.0.3)
-  - Locking sebastian/code-unit-reverse-lookup (4.0.1)
-  - Locking sebastian/comparator (6.3.3)
-  - Locking sebastian/complexity (4.0.1)
-  - Locking sebastian/diff (6.0.2)
-  - Locking sebastian/environment (7.2.1)
-  - Locking sebastian/exporter (6.3.2)
-  - Locking sebastian/global-state (7.0.2)
-  - Locking sebastian/lines-of-code (3.0.1)
-  - Locking sebastian/object-enumerator (6.0.1)
-  - Locking sebastian/object-reflector (4.0.1)
-  - Locking sebastian/recursion-context (6.0.3)
-  - Locking sebastian/type (5.1.3)
-  - Locking sebastian/version (5.0.2)
-  - Locking staabm/side-effects-detector (1.0.5)
-  - Locking symfony/clock (v7.4.8)
-  - Locking symfony/console (v7.4.8)
-  - Locking symfony/css-selector (v7.4.8)
-  - Locking symfony/deprecation-contracts (v3.6.0)
-  - Locking symfony/error-handler (v7.4.8)
-  - Locking symfony/event-dispatcher (v7.4.8)
-  - Locking symfony/event-dispatcher-contracts (v3.6.0)
-  - Locking symfony/finder (v7.4.8)
-  - Locking symfony/http-foundation (v7.4.8)
-  - Locking symfony/http-kernel (v7.4.8)
-  - Locking symfony/mailer (v7.4.8)
-  - Locking symfony/mime (v7.4.8)
-  - Locking symfony/polyfill-ctype (v1.36.0)
-  - Locking symfony/polyfill-intl-grapheme (v1.36.0)
-  - Locking symfony/polyfill-intl-idn (v1.36.0)
-  - Locking symfony/polyfill-intl-normalizer (v1.36.0)
-  - Locking symfony/polyfill-mbstring (v1.36.0)
-  - Locking symfony/polyfill-php80 (v1.36.0)
-  - Locking symfony/polyfill-php83 (v1.36.0)
-  - Locking symfony/polyfill-php84 (v1.36.0)
-  - Locking symfony/polyfill-php85 (v1.36.0)
-  - Locking symfony/polyfill-uuid (v1.36.0)
-  - Locking symfony/process (v7.4.8)
-  - Locking symfony/routing (v7.4.8)
-  - Locking symfony/service-contracts (v3.6.1)
-  - Locking symfony/string (v7.4.8)
-  - Locking symfony/translation (v7.4.8)
-  - Locking symfony/translation-contracts (v3.6.1)
-  - Locking symfony/uid (v7.4.8)
-  - Locking symfony/var-dumper (v7.4.8)
-  - Locking symfony/yaml (v7.4.8)
-  - Locking theseer/tokenizer (1.3.1)
-  - Locking tijsverkoyen/css-to-inline-styles (v2.4.0)
-  - Locking vlucas/phpdotenv (v5.6.3)
-  - Locking voku/portable-ascii (2.1.0)
 Writing lock file
 Installing dependencies from lock file (including require-dev)
 Package operations: 111 installs, 0 updates, 0 removals
-  - Installing doctrine/inflector (2.1.0): Extracting archive
-  - Installing doctrine/lexer (3.0.1): Extracting archive
-  - Installing dragonmantank/cron-expression (v3.6.0): Extracting archive
-  - Installing symfony/deprecation-contracts (v3.6.0): Extracting archive
-  - Installing psr/container (2.0.2): Extracting archive
-  - Installing fakerphp/faker (v1.24.1): Extracting archive
-  - Installing symfony/polyfill-mbstring (v1.36.0): Extracting archive
-  - Installing symfony/http-foundation (v7.4.8): Extracting archive
-  - Installing fruitcake/php-cors (v1.4.0): Extracting archive
-  - Installing psr/http-message (2.0): Extracting archive
-  - Installing psr/http-client (1.0.3): Extracting archive
-  - Installing ralouphie/getallheaders (3.0.3): Extracting archive
-  - Installing psr/http-factory (1.1.0): Extracting archive
-  - Installing guzzlehttp/psr7 (2.9.0): Extracting archive
-  - Installing guzzlehttp/promises (2.3.0): Extracting archive
-  - Installing guzzlehttp/guzzle (7.10.0): Extracting archive
-  - Installing symfony/polyfill-php80 (v1.36.0): Extracting archive
-  - Installing guzzlehttp/uri-template (v1.0.5): Extracting archive
-  - Installing symfony/polyfill-intl-normalizer (v1.36.0): Extracting archive
-  - Installing symfony/polyfill-intl-grapheme (v1.36.0): Extracting archive
-  - Installing symfony/polyfill-ctype (v1.36.0): Extracting archive
-  - Installing symfony/string (v7.4.8): Extracting archive
-  - Installing symfony/service-contracts (v3.6.1): Extracting archive
-  - Installing symfony/console (v7.4.8): Extracting archive
-  - Installing nunomaduro/termwind (v2.4.0): Extracting archive
-  - Installing voku/portable-ascii (2.1.0): Extracting archive
-  - Installing phpoption/phpoption (1.9.5): Extracting archive
-  - Installing graham-campbell/result-type (v1.1.4): Extracting archive
-  - Installing vlucas/phpdotenv (v5.6.3): Extracting archive
-  - Installing symfony/css-selector (v7.4.8): Extracting archive
-  - Installing tijsverkoyen/css-to-inline-styles (v2.4.0): Extracting archive
-  - Installing symfony/var-dumper (v7.4.8): Extracting archive
-  - Installing symfony/polyfill-uuid (v1.36.0): Extracting archive
-  - Installing symfony/uid (v7.4.8): Extracting archive
-  - Installing symfony/routing (v7.4.8): Extracting archive
-  - Installing symfony/process (v7.4.8): Extracting archive
-  - Installing symfony/polyfill-php85 (v1.36.0): Extracting archive
-  - Installing symfony/polyfill-php84 (v1.36.0): Extracting archive
-  - Installing symfony/polyfill-php83 (v1.36.0): Extracting archive
-  - Installing symfony/polyfill-intl-idn (v1.36.0): Extracting archive
-  - Installing symfony/mime (v7.4.8): Extracting archive
-  - Installing psr/event-dispatcher (1.0.0): Extracting archive
-  - Installing symfony/event-dispatcher-contracts (v3.6.0): Extracting archive
-  - Installing symfony/event-dispatcher (v7.4.8): Extracting archive
-  - Installing psr/log (3.0.2): Extracting archive
-  - Installing egulias/email-validator (4.0.4): Extracting archive
-  - Installing symfony/mailer (v7.4.8): Extracting archive
-  - Installing symfony/error-handler (v7.4.8): Extracting archive
-  - Installing symfony/http-kernel (v7.4.8): Extracting archive
-  - Installing symfony/finder (v7.4.8): Extracting archive
-  - Installing ramsey/collection (2.1.1): Extracting archive
-  - Installing brick/math (0.14.8): Extracting archive
-  - Installing ramsey/uuid (4.9.2): Extracting archive
-  - Installing psr/simple-cache (3.0.0): Extracting archive
-  - Installing symfony/translation-contracts (v3.6.1): Extracting archive
-  - Installing symfony/translation (v7.4.8): Extracting archive
-  - Installing psr/clock (1.0.0): Extracting archive
-  - Installing symfony/clock (v7.4.8): Extracting archive
-  - Installing carbonphp/carbon-doctrine-types (3.2.0): Extracting archive
-  - Installing nesbot/carbon (3.11.4): Extracting archive
-  - Installing monolog/monolog (3.10.0): Extracting archive
-  - Installing league/uri-interfaces (7.8.1): Extracting archive
-  - Installing league/uri (7.8.1): Extracting archive
-  - Installing league/mime-type-detection (1.16.0): Extracting archive
-  - Installing league/flysystem-local (3.31.0): Extracting archive
-  - Installing league/flysystem (3.33.0): Extracting archive
-  - Installing nette/utils (v4.1.3): Extracting archive
-  - Installing nette/schema (v1.3.5): Extracting archive
-  - Installing dflydev/dot-access-data (v3.0.3): Extracting archive
-  - Installing league/config (v1.2.0): Extracting archive
-  - Installing league/commonmark (2.8.2): Extracting archive
-  - Installing laravel/serializable-closure (v2.0.12): Extracting archive
-  - Installing laravel/prompts (v0.3.16): Extracting archive
-  - Installing laravel/framework (v12.56.0): Extracting archive
-  - Installing laravel/pail (v1.2.6): Extracting archive
-  - Installing laravel/pint (v1.29.0): Extracting archive
-  - Installing symfony/yaml (v7.4.8): Extracting archive
-  - Installing laravel/sail (v1.57.0): Extracting archive
-  - Installing nikic/php-parser (v5.7.0): Extracting archive
-  - Installing psy/psysh (v0.12.22): Extracting archive
-  - Installing laravel/tinker (v2.11.1): Extracting archive
-  - Installing hamcrest/hamcrest-php (v2.1.1): Extracting archive
-  - Installing mockery/mockery (1.6.12): Extracting archive
-  - Installing filp/whoops (2.18.4): Extracting archive
-  - Installing nunomaduro/collision (v8.9.3): Extracting archive
-  - Installing staabm/side-effects-detector (1.0.5): Extracting archive
-  - Installing sebastian/version (5.0.2): Extracting archive
-  - Installing sebastian/type (5.1.3): Extracting archive
-  - Installing sebastian/recursion-context (6.0.3): Extracting archive
-  - Installing sebastian/object-reflector (4.0.1): Extracting archive
-  - Installing sebastian/object-enumerator (6.0.1): Extracting archive
-  - Installing sebastian/global-state (7.0.2): Extracting archive
-  - Installing sebastian/exporter (6.3.2): Extracting archive
-  - Installing sebastian/environment (7.2.1): Extracting archive
-  - Installing sebastian/diff (6.0.2): Extracting archive
-  - Installing sebastian/comparator (6.3.3): Extracting archive
-  - Installing sebastian/code-unit (3.0.3): Extracting archive
-  - Installing sebastian/cli-parser (3.0.2): Extracting archive
-  - Installing phpunit/php-timer (7.0.1): Extracting archive
-  - Installing phpunit/php-text-template (4.0.1): Extracting archive
-  - Installing phpunit/php-invoker (5.0.1): Extracting archive
-  - Installing phpunit/php-file-iterator (5.1.1): Extracting archive
-  - Installing theseer/tokenizer (1.3.1): Extracting archive
-  - Installing sebastian/lines-of-code (3.0.1): Extracting archive
-  - Installing sebastian/complexity (4.0.1): Extracting archive
-  - Installing sebastian/code-unit-reverse-lookup (4.0.1): Extracting archive
-  - Installing phpunit/php-code-coverage (11.0.12): Extracting archive
   - Installing phar-io/version (3.2.1): Extracting archive
   - Installing phar-io/manifest (2.0.4): Extracting archive
   - Installing myclabs/deep-copy (1.13.4): Extracting archive
@@ -302,4 +87,153 @@ programa o archivo por lotes ejecutable.
 
 ➜ cd my-app
 ➜ composer run dev
+```
+
+### Crear la migración y el modelo para Solicitud
+
+```
+php artisan make:model Solicitud -m
+```
+Esto crea el modelo Solicitud y su migración. Dejandolo en la ruta database/migrations/xxxx_xx_xx_xxxxxx_create_solicitudes_table.php
+
+####  Luego ejecuta la migración:
+
+```
+php artisan migrate
+```
+
+### Definir el Modelo Solicitud
+En app/Models/Solicitud.php, se agregan los campos requeridos
+
+```
+protected $fillable = [
+        'nombre_solicitante',
+        'correo_electronico',
+        'tipo_solicitud',
+        'descripcion',
+        'estado',
+    ];
+```
+
+### Script de creacion base de datos
+si se desea usar una manera rapida de crear la base de datos sin necesidad de usar las migraciones se puede ejecutar el siguiente script
+```
+CREATE TABLE IF NOT EXISTS "migrations" ("id" integer primary key autoincrement not null, "migration" varchar not null, "batch" integer not null);
+CREATE TABLE sqlite_sequence(name seq);
+CREATE TABLE IF NOT EXISTS "users" ("id" integer primary key autoincrement not null, "name" varchar not null, "email" varchar not null, "email_verified_at" datetime, "password" varchar not null, "remember_token" varchar, "created_at" datetime, "updated_at" datetime);
+CREATE UNIQUE INDEX "users_email_unique" on "users" ("email");
+CREATE TABLE IF NOT EXISTS "password_reset_tokens" ("email" varchar not null, "token" varchar not null, "created_at" datetime, primary key ("email"));
+CREATE TABLE IF NOT EXISTS "sessions" ("id" varchar not null, "user_id" integer, "ip_address" varchar, "user_agent" text, "payload" text not null, "last_activity" integer not null, primary key ("id"));
+CREATE INDEX "sessions_user_id_index" on "sessions" ("user_id");
+CREATE INDEX "sessions_last_activity_index" on "sessions" ("last_activity");
+CREATE TABLE IF NOT EXISTS "cache" ("key" varchar not null, "value" text not null, "expiration" integer not null, primary key ("key"));
+CREATE INDEX "cache_expiration_index" on "cache" ("expiration");
+CREATE TABLE IF NOT EXISTS "cache_locks" ("key" varchar not null, "owner" varchar not null, "expiration" integer not null, primary key ("key"));
+CREATE INDEX "cache_locks_expiration_index" on "cache_locks" ("expiration");
+CREATE TABLE IF NOT EXISTS "jobs" ("id" integer primary key autoincrement not null, "queue" varchar not null, "payload" text not null, "attempts" integer not null, "reserved_at" integer, "available_at" integer not null, "created_at" integer not null);
+CREATE INDEX "jobs_queue_index" on "jobs" ("queue");
+CREATE TABLE IF NOT EXISTS "job_batches" ("id" varchar not null, "name" varchar not null, "total_jobs" integer not null, "pending_jobs" integer not null, "failed_jobs" integer not null, "failed_job_ids" text not null, "options" text, "cancelled_at" integer, "created_at" integer not null, "finished_at" integer, primary key ("id"));
+CREATE TABLE IF NOT EXISTS "failed_jobs" ("id" integer primary key autoincrement not null, "uuid" varchar not null, "connection" text not null, "queue" text not null, "payload" text not null, "exception" text not null, "failed_at" datetime not null default CURRENT_TIMESTAMP);
+CREATE UNIQUE INDEX "failed_jobs_uuid_unique" on "failed_jobs" ("uuid");
+CREATE TABLE IF NOT EXISTS "solicitudes" ("id" integer primary key autoincrement not null, "nombre_solicitante" varchar not null, "correo_electronico" varchar not null, "tipo_solicitud" varchar not null, "descripcion" text not null, "estado" varchar check ("estado" in ('Pendiente', 'En revisión', 'Aprobada', 'Rechazada')) not null default 'Pendiente', "created_at" datetime, "updated_at" datetime);
+```
+
+###  Crear el Controlador con recurso completo
+
+```
+php artisan make:controller SolicitudController --resource --model=Solicitud
+```
+
+En app/Http/Controllers/SolicitudController.php. Implementaremos los métodos index, store, update y las validaciones.
+```
+ public function index(Request $request)
+    {
+        $query = Solicitud::query();
+
+        // Filtro por estado
+        if ($request->filled('estado')) {
+            $query->where('estado', $request->estado);
+        }
+
+        // Filtro por tipo de solicitud
+        if ($request->filled('tipo')) {
+            $query->where('tipo_solicitud', $request->tipo);
+        }
+
+        // Filtro por texto libre (nombre o correo)
+        if ($request->filled('buscar')) {
+            $buscar = $request->buscar;
+            $query->where(function ($q) use ($buscar) {
+                $q->where('nombre_solicitante', 'like', "%{$buscar}%")
+                  ->orWhere('correo_electronico', 'like', "%{$buscar}%");
+            });
+        }
+
+        $solicitudes = $query->orderBy('created_at', 'desc')->paginate(10);
+
+        // Obtener listados para los selects de filtros
+        $tipos = Solicitud::tipos();
+        $estados = Solicitud::estados();
+
+        return view('solicitudes.index', compact('solicitudes', 'tipos', 'estados'));
+    }
+```
+```
+
+    public function edit(Solicitud $solicitud)
+    {
+        $estados = Solicitud::estados();
+        return view('solicitudes.edit', compact('solicitud', 'estados'));
+    }
+```    
+
+```
+     public function update(Request $request, Solicitud $solicitud)
+    {
+        $validated = $request->validate([
+            'estado' => ['required', Rule::in(Solicitud::estados())],
+        ]);
+
+        $solicitud->update($validated);
+
+        return redirect()->route('solicitudes.index')
+                         ->with('success', 'Estado actualizado correctamente.');
+    }
+```
+
+### Definir rutas y crear vistas
+```
+<?php
+
+use App\Http\Controllers\SolicitudController;
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', function () {
+    return redirect()->route('solicitudes.index');
+});
+
+Route::resource('solicitudes', SolicitudController::class);
+```
+
+en la carpeta resources/views se crearan las vistas, para luego ejecutar el siguiente comando para ejecutar el proyecto
+```
+php artisan serve
+``` 
+
+# Estructura base de datos
+
+
+
+```mermaid
+erDiagram
+    SOLICITUDES {
+        int id PK "Auto-increment"
+        string nombre_solicitante "Nombre completo"
+        string correo_electronico "Email válido"
+        string tipo_solicitud "Académica|Certificado|Actualización de datos|Otra"
+        text descripcion "Detalle de la solicitud"
+        string estado "Pendiente|En revisión|Aprobada|Rechazada"
+        timestamp created_at "Fecha creación"
+        timestamp updated_at "Fecha actualización"
+    }
 ```
