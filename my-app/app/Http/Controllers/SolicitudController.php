@@ -9,23 +9,20 @@ use Illuminate\Validation\Rule;
 class SolicitudController extends Controller
 {
     /**
-     * Muestra el listado con filtros.
+     * Muestra el listado con filtros (PÚBLICO - no requiere login).
      */
     public function index(Request $request)
     {
         $query = Solicitud::query();
 
-        // Filtro por estado
         if ($request->filled('estado')) {
             $query->where('estado', $request->estado);
         }
 
-        // Filtro por tipo de solicitud
         if ($request->filled('tipo')) {
             $query->where('tipo_solicitud', $request->tipo);
         }
 
-        // Filtro por texto libre (nombre o correo)
         if ($request->filled('buscar')) {
             $buscar = $request->buscar;
             $query->where(function ($q) use ($buscar) {
@@ -35,8 +32,6 @@ class SolicitudController extends Controller
         }
 
         $solicitudes = $query->orderBy('created_at', 'desc')->paginate(10);
-
-        // Obtener listados para los selects de filtros
         $tipos = Solicitud::tipos();
         $estados = Solicitud::estados();
 
@@ -44,7 +39,7 @@ class SolicitudController extends Controller
     }
 
     /**
-     * Muestra formulario de creación.
+     * Muestra formulario de creación (PÚBLICO).
      */
     public function create()
     {
@@ -53,7 +48,7 @@ class SolicitudController extends Controller
     }
 
     /**
-     * Almacena una nueva solicitud.
+     * Almacena una nueva solicitud (PÚBLICO).
      */
     public function store(Request $request)
     {
@@ -71,7 +66,7 @@ class SolicitudController extends Controller
     }
 
     /**
-     * Muestra el detalle de una solicitud (opcional pero útil).
+     * Muestra el detalle (PÚBLICO).
      */
     public function show(Solicitud $solicitud)
     {
@@ -79,7 +74,7 @@ class SolicitudController extends Controller
     }
 
     /**
-     * Muestra formulario de edición (solo para cambiar estado).
+     * Muestra formulario de edición (SOLO ADMIN - protegido por rutas).
      */
     public function edit(Solicitud $solicitud)
     {
@@ -88,7 +83,7 @@ class SolicitudController extends Controller
     }
 
     /**
-     * Actualiza el estado de la solicitud.
+     * Actualiza el estado (SOLO ADMIN - protegido por rutas).
      */
     public function update(Request $request, Solicitud $solicitud)
     {
@@ -103,7 +98,7 @@ class SolicitudController extends Controller
     }
 
     /**
-     * Elimina una solicitud (opcional, no requerido pero se puede incluir).
+     * Elimina una solicitud (SOLO ADMIN - protegido por rutas).
      */
     public function destroy(Solicitud $solicitud)
     {

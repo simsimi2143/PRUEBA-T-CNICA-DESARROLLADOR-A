@@ -72,10 +72,18 @@
                     </td>
                     <td>{{ $solicitud->created_at->format('d/m/Y H:i') }}</td>
                     <td>
-                        <a href="{{ route('solicitudes.edit', $solicitud) }}" class="btn btn-sm btn-outline-primary">
-                            Cambiar estado
-                        </a>
-                    </td>
+    @auth
+        @if(auth()->user()->isAdmin())
+            <a href="{{ route('solicitudes.edit', $solicitud) }}" class="btn btn-sm btn-outline-primary">
+                Cambiar estado
+            </a>
+        @else
+            <span class="text-muted">-</span>
+        @endif
+    @else
+        <span class="text-muted">-</span>
+    @endauth
+</td>
                 </tr>
             @empty
                 <tr>
